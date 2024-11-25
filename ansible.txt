@@ -4,8 +4,8 @@
 
 - name: install java package foe centos
   yum:
-          - java
+          - java7
 
 - name: install maven package for centos
   yum:
-         - maven
+         - maven3.3.9
