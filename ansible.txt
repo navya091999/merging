@@ -1,0 +1,11 @@
+---
+- hosts: localhost
+  become: yes
+
+- name: install java package foe centos
+  yum:
+          - java7
+
+- name: install maven package for centos
+  yum:
+         - maven3.3.9
